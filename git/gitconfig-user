@@ -2,14 +2,14 @@
     ui = true
     interactive = true
 [color "branch"]
-    current = yellow reverse
+    current = green
     local = yellow
-    remote = green
+    remote = cyan
 [color "diff"]
-    meta = yellow bold
-    frag = green bold
+    meta = cyan bold
+    frag = yellow bold
     old = red bold
-    new = magenta bold
+    new = green bold
     whitespace = red reverse
 [color "status"]
     added = green
@@ -60,6 +60,7 @@
     cp = cherry-pick -x
 
     c = commit
+    cs = commit -S
     aa = add .
 
     cfd = clean -fd

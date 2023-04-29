@@ -1,0 +1,220 @@
+{
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.detectIndentation": false,
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.rulers": [
+            120
+        ]
+    },
+    "cSpell.userWords": [
+        "Scrollable",
+        "bing",
+        "rescan",
+        "typemoq"
+    ],
+    "editor.accessibilitySupport": "off",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 18,
+    "editor.formatOnSave": false,
+    "editor.formatOnType": false,
+    "editor.insertSpaces": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.renderWhitespace": "all",
+    "files.associations": {
+        "**/*.yaml": "azure-pipelines"
+    },
+    "files.autoSave": "off",
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/.git": true,
+        "**/.hg": true,
+        "**/.svn": true,
+        "**/CVS": true,
+        "**/bin": true
+    },
+    "files.trimTrailingWhitespace": true,
+    "gitlens.advanced.blame.customArguments": [
+        "--ignore-revs-file",
+        "${workspaceRoot}/.ignoredRevs"
+    ],
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.currentLine.pullRequests.enabled": false,
+    "gitlens.currentLine.scrollable": false,
+    "gitlens.gitCommands.skipConfirmations": [
+        "fetch:command",
+        "switch:command"
+    ],
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.enabled": false,
+    "gitlens.keymap": "alternate",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "search.showLineNumbers": true,
+    "typescript.preferences.importModuleSpecifier": "non-relative",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "typescriptHero.imports.ignoredFromRemoval": [
+        "lodash/index",
+        "react"
+    ],
+    "typescriptHero.imports.removeTrailingIndex": false,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "after": [],
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.splitEditor"
+                }
+            ]
+        },
+        {
+            "after": [],
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.closeActiveEditor"
+                }
+            ]
+        },
+        {
+            "after": [],
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                {
+                    "args": [],
+                    "command": "workbench.action.files.save"
+                }
+            ]
+        },
+        {
+            "after": [
+                "n",
+                "z",
+                "z"
+            ],
+            "before": [
+                "n"
+            ]
+        },
+        {
+            "after": [
+                "N",
+                "z",
+                "z"
+            ],
+            "before": [
+                "N"
+            ]
+        },
+        {
+            "after": [
+                "c-w",
+                "h"
+            ],
+            "before": [
+                "c-Left"
+            ]
+        },
+        {
+            "after": [
+                "c-w",
+                "l"
+            ],
+            "before": [
+                "c-Right"
+            ]
+        },
+        {
+            "after": [
+                "c-w",
+                "k"
+            ],
+            "before": [
+                "c-Up"
+            ]
+        },
+        {
+            "after": [
+                "c-w",
+                "j"
+            ],
+            "before": [
+                "c-Down"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "n"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        }
+    ],
+    "vim.useSystemClipboard": true,
+    "window.openFilesInNewWindow": "off",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night Storm]": {
+            "activityBar.foreground": "#bdc7f0",
+            "activityBar.inactiveForeground": "#787c99",
+            "breadcrumb.activeSelectionForeground": "#bdc7f0",
+            "breadcrumb.focusForeground": "#bdc7f0",
+            "breadcrumb.foreground": "#959cbd",
+            "dropdown.foreground": "#959cbd",
+            "foreground": "#959cbd",
+            "gitDecoration.ignoredResourceForeground": "#696d87",
+            "input.foreground": "#959cbd",
+            "input.placeholderForeground": "#959cbd",
+            "list.activeSelectionForeground": "#bdc7f0",
+            "list.focusForeground": "#bdc7f0",
+            "list.hoverForeground": "#bdc7f0",
+            "list.inactiveSelectionBackground": "#202330",
+            "list.inactiveSelectionForeground": "#bdc7f0",
+            "menu.foreground": "#bdc7f0",
+            "menubar.selectionForeground": "#bdc7f0",
+            "panelTitle.activeBorder": "#3d59a1",
+            "panelTitle.activeForeground": "#bdc7f0",
+            "panelTitle.inactiveForeground": "#959cbd",
+            "sideBar.foreground": "#959cbd",
+            "statusBar.foreground": "#bdc7f0",
+            "tab.activeForeground": "#bdc7f0",
+            "tab.inactiveForeground": "#959cbd"
+        },
+        "editor.lineHighlightBackground": "#073642",
+        "editorIndentGuide.activeBackground": "#ffffff"
+    },
+    "workbench.editor.enablePreview": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Tokyo Night Storm",
+    "window.zoomLevel": 1
+}

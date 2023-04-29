@@ -1,0 +1,9 @@
+let path = $HOME . '/repos/dotfiles/wsl-ubuntu/vim/'
+
+exe "source " . expand(path) . "plugins.vim"
+
+exe "source " .  expand(path) . "settings.vim"
+
+exe "source " . expand(path) . "mappings.vim"
+
+
