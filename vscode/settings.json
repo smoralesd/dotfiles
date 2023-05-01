@@ -18,7 +18,7 @@
         "typemoq"
     ],
     "editor.accessibilitySupport": "off",
-    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
     "editor.fontLigatures": true,
     "editor.fontSize": 18,
     "editor.formatOnSave": false,
