@@ -216,5 +216,6 @@
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "workbench.colorTheme": "Tokyo Night Storm",
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "editor.inlineSuggest.enabled": true
 }
