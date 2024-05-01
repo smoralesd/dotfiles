@@ -1,4 +1,5 @@
 Import-Module posh-git
+Import-Module -Name Terminal-Icons
 
 $configPath = Join-Path $PSScriptRoot "custom-oh-my-posh.omp.json"
 
